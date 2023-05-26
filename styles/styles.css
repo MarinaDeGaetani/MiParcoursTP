@@ -321,7 +321,7 @@ h1.page-titre {
   align-items: flex-start;
 }
 
-.myimg03 {
+.myimg04 {
   margin-right: 130px;
 }
 
@@ -329,7 +329,7 @@ h1.page-titre {
   margin: 10px 0px 15px 0px;
 }
 
-.myimg02 {
+.myimg03 {
   width: max-content;
   object-fit: cover;
 }
@@ -433,8 +433,10 @@ h1.page-titre {
 
   /* ACCUEIL*/
 
-  .dflex03 {
+  .dflex05 {
     display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .banner01 h1,
