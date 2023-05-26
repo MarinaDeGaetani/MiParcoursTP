@@ -1,0 +1,510 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,200&family=Raleway:wght@600&display=swap");
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+/* FIN RESET */
+
+/* GLOBAL */
+
+.container {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.secpad {
+  padding: 100px 0px 30px 0px;
+}
+
+.secpad02 {
+  padding: 50px 0px 00px 0px;
+}
+
+.center {
+  text-align: center;
+}
+
+.myimg {
+  width: 40%;
+}
+
+.btn {
+  border-radius: 10px;
+  border: 1px solid #000;
+  padding: 15px 30px;
+  display: inline-block;
+}
+
+.btn:hover {
+  border: 1px solid #000;
+  background-color: #000;
+  color: #fff;
+}
+
+a:hover {
+  color: #2e86ab;
+}
+/* FIN GLOBAL */
+
+/* TYPO */
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  color: #000;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+h3 {
+  color: #000;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 60px 0px 20px 0px;
+}
+
+p {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+p.grand-italic {
+  font-size: 30px;
+  font-style: italic;
+}
+
+h1.page-titre {
+  font-size: 48px;
+  text-align: center;
+  padding: 15px;
+  margin: 100px 0px 70px 0px;
+  width: 60%;
+  background-color: #d94188;
+  color: #fff;
+}
+
+/* Fin TYPO */
+
+/* HEADER */
+
+.mainhead {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-color: #fff;
+  padding: 20px 0px;
+  box-shadow: #00000028 0px 2px 10px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu .logo-header {
+  width: 80%;
+}
+
+.menu .nav-links ul {
+  display: flex;
+}
+
+.menu ul li a {
+  padding: 15px;
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.menu ul li a:hover {
+  padding: 15px;
+  display: block;
+  font-weight: 600;
+  color: #d91e50;
+}
+
+.menu .menu-burger {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  width: 40px;
+}
+
+/* Fin HEADER */
+
+/*PAGE ACCUEIL*/
+
+/* Bannière 01 */
+.banner01 {
+  height: 110vh;
+  background-image: url(../images/Banniere01.png);
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.banner01 h1 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.banner01 p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 40px;
+  width: 60%;
+}
+
+.btn-banner {
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+.btn-banner:hover {
+  border: none;
+  color: #000;
+  background: #fff;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+.presentation,
+.enfance-helen,
+.education,
+.carrière {
+  width: 40%;
+  margin: 100px;
+}
+
+.presentation p,
+.enfance-helen p,
+.education p,
+.carrière p {
+  color: #272727;
+  margin: 15px 0px;
+}
+
+/* Fin bannière 01 */
+
+/* Section 01 : Présentation Hellen Keller */
+.dflex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Fin section 01 : Présentation Hellen Keller */
+
+/* Bannière 02 */
+
+.banner02 {
+  height: 60vh;
+  background-image: url(../images/Banniere02.png);
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner02 p {
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.banner02 p,
+.banner02 h2 {
+  color: #fff;
+}
+/* Fin Bannière 02 */
+
+/*FIN PAGE ACCUEIL*/
+
+/*PAGE ENFANCE*/
+
+/* Section 03 : Enfance Helen Keller : La rencontre déterminante avec Anne Sullivan */
+
+.dflex02 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: first baseline;
+}
+
+.dflex03 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.enfance-helen02 {
+  width: 50%;
+  margin: 15px;
+  background: #e4edf2;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.enfance-helen02 p,
+.enfance-helen03 p {
+  color: #272727;
+  margin: 15px 0px;
+}
+
+.enfance-helen03 {
+  background: #e4edf2;
+  margin-bottom: 90px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+/*PAGE ADULTE*/
+
+.myimg02 {
+  width: 25%;
+}
+
+/*FIN PAGE ADULTE*/
+
+/*PAGE GALERIE*/
+
+.dflex04 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.myimg03 {
+  margin-right: 130px;
+}
+
+.livres p {
+  margin: 10px 0px 15px 0px;
+}
+
+.myimg02 {
+  width: max-content;
+  object-fit: cover;
+}
+
+.position {
+  position: initial;
+}
+
+.content {
+  position: relative;
+}
+
+.content:hover .texte {
+  visibility: visible;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.content:hover .myimg02 {
+  filter: blur(2px);
+}
+
+.texte {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #272727bf;
+  width: 200px;
+  height: 270px;
+  visibility: hidden;
+}
+
+.texte p {
+  margin: 20px 0px 0px 20px;
+  color: #fff;
+}
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 700px) {
+  /*TYPO*/
+
+  h1.page-titre {
+    width: 80%;
+  }
+  /*TYPO*/
+
+  /*GLOBAL*/
+
+  .dflex,
+  .dflex02,
+  .dflex03,
+  .dflex04 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*FIN GLOBAL*/
+
+  /* HEADER*/
+
+  .mainhead {
+    height: 150px;
+  }
+
+  .menu .menu-burger {
+    display: block;
+  }
+
+  .menu a .logo-header {
+    position: absolute;
+    width: 15%;
+    top: 50px;
+    left: 50px;
+  }
+
+  .nav-links {
+    top: 0;
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -200%;
+  }
+
+  .nav-links.mobile-menu {
+    margin-left: 0;
+  }
+
+  .nav-links ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /*FIN HEADER*/
+
+  /* ACCUEIL*/
+
+  .dflex03 {
+    display: flex;
+  }
+
+  .banner01 h1,
+  .banner01 p,
+  .banner01 a {
+    margin: 10px 0px 0px 30px;
+    text-align: center;
+  }
+
+  .presentation {
+    width: 60%;
+  }
+
+  .banner02 {
+    height: 100vh;
+    background-position: center left;
+  }
+
+  .banner02 h2,
+  .banner02 p,
+  .banner02 a {
+    text-align: center;
+  }
+
+  .banner02 a {
+    margin-top: 40px;
+  }
+
+  /* FIN ACCUEIL*/
+
+  /* ENFANCE*/
+
+  .enfance-helen03 {
+    margin: 0px 30px 60px 30px;
+  }
+
+  /* FIN ENFANCE*/
+
+  /*ADULTE*/
+
+  .livres {
+    margin-bottom: 50px;
+  }
+
+  .myimg02 {
+    width: 50%;
+  }
+
+  /*FIN ADULTE*/
+
+  /* GALERIE*/
+
+  .content {
+    position: initial;
+    margin-bottom: 20px;
+  }
+
+  .myimg03 {
+    margin-right: 0;
+  }
+
+  /* FIN GALERIE*/
+
+  /* EN SAVOIR PLUS*/
+
+  .mobile-marge {
+    margin: 0px 30px 0px 30px;
+  }
+
+  /* FIN EN SAVOIR PLUS*/
+}
+
+/*FIN RESPONSIVE*/
